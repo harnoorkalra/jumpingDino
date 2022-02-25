@@ -1,0 +1,48 @@
+#score {
+    text-align: center;
+}
+ 
+#game {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://wallpapersmug.com/large/430736/landscape-art-video-game-no-mans-sky.jpg");
+    background-size: cover;
+}
+
+#dino {
+    height: 140px;
+    width: 165px;
+    position: relative;
+    top: 420px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfDlUdfn-R5Jcv1jpiPD04-9eDKSbS0lu7DQTz3CcrLcxMRZ6Tk6SDDpDBak53HeKYTc4&usqp=CAU");
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+
+#rock {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 340px;
+    left: 850px;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c091267c-dce6-44d0-a4b3-3396cb512eb3/dafv167-bcec4c2b-80e5-4b5c-96a1-259d8e80354d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MwOTEyNjdjLWRjZTYtNDRkMC1hNGIzLTMzOTZjYjUxMmViM1wvZGFmdjE2Ny1iY2VjNGMyYi04MGU1LTRiNWMtOTZhMS0yNTlkOGU4MDM1NGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rIfGTX4_8JRvN_xoT7OxKtJ-Qi_ALnsc-DfrOKE_Hx4");
+    background-size: cover;
+    animation: rock 3s infinite;
+}
+
+@keyframes rock {
+    0%{left: 850px;}
+    100%{left: -130px;}
+}
+
+.jumpAnimation {
+    animation: jump 0.75s;
+}
+@keyframes jump {
+    0%{top: 420px;}
+    50%{top: 250px;}
+    75%{top: 250px;}
+    100%{top: 420px;}
+}
